@@ -54,7 +54,7 @@ I have worked with PyTorch Library here and the models run on **GPU**.
 
     • import pandas as pd
 
-  **f.Visualization**
+  **e.For visualization**
 
     • import matplotlib.pyplot as plt
 
@@ -107,9 +107,49 @@ I have worked with PyTorch Library here and the models run on **GPU**.
     
     • import torch.nn as nn
 
-    • import torch
+    • import torch.optim as optim
+
+  **b.For Datasets**
     
-    • import torch.nn as nn
+    • from torch.utils.data import Dataset, DataLoader
+
+  **c.For evaluation metrics**
+
+    • from sklearn.metrics import accuracy_score
+
+  **d.For file handling**
+
+    • import pandas as pd
+
+  **e.For visualization**
+
+    • import matplotlib.pyplot as plt
+
+**Process**
+
+    • Generate a synthetic dataset where each source sequence is a random sequence of integers, and each target sequence is the reverse of the source sequence. 
+    
+    • This data is used to understand the model's behavior with ease.
+
+    • Implement the sequence-to-sequence model **without attention** mechanism in PyTorch.
+    
+    • Implement the sequence-to-sequence model **with attention** mechanism in PyTorch.
+
+    • Train the models on the synthetic dataset.
+
+    • Get the loss curves for the seq2seq model with and without attention mechanism during training.
+
+    • Plot the loss curves for comparison.
+
+    • Evaluate the model performance using metrics such as accuracy.
+    
+    • Analyze the effectiveness of the attention mechanism in improving seq2seq model performance.
+
+**NOTE:**
+    1. The seq2seq ipynb file consists of model architectures, synthetic data generation, training and evaluation and plot for loss.
+
+
+
 
 
 
