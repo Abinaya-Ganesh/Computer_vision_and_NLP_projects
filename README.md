@@ -92,6 +92,7 @@ I have worked with PyTorch Library here and the models run on **GPU**.
   2. The loss and other metrics are converted to CSV files. I have uploaded them as well under the folder csv files.
      
   3. CNN_plot file consists of the plotted loss curve and other evaluation metrics table.
+     
 
 **PROJECT-2**
 
@@ -165,7 +166,7 @@ I have worked with PyTorch Library here and the models run on **GPU**.
 
 **NOTE:**
 
-    The seq2seq ipynb file consists of model architectures, synthetic data generation, training and evaluation and plot for loss.
+    The seq2seq_project ipynb file consists of model architectures, synthetic data generation, training and evaluation and plot for loss.
 
 **PROJECT-3**
 
