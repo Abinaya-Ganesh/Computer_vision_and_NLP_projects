@@ -22,7 +22,17 @@ I have worked with PyTorch Library here and the models run on **GPU**.
 
   • Google Colab
 
- **2.Python libraries to install**
+**2.Python libraries to install**
+
+  **a.For Deep Learning**
+
+    • torch
+
+    • torchvision
+
+    • torch-utils
+
+ **3.Python modules to import**
 
   **a.For Neural Network models**
 
@@ -79,7 +89,7 @@ I have worked with PyTorch Library here and the models run on **GPU**.
 
   1. CNN_project file has all the architectures, training and evaluation part.
      
-  2. The loss and other metrics are converted to CSV files.
+  2. The loss and other metrics are converted to CSV files. I have uploaded them as well under the folder csv files.
      
   3. CNN_plot file consists of the plotted loss curve and other evaluation metrics table.
 
@@ -99,7 +109,15 @@ I have worked with PyTorch Library here and the models run on **GPU**.
 
   • Google Colab
 
- **2.Python libraries to install**
+**2.Python libraries to install**
+
+  **a.For Deep Learning**
+
+    • torch
+
+    • torch-utils
+
+ **3.Python modules to import**
 
   **a.For Neural Network models**
 
@@ -146,14 +164,96 @@ I have worked with PyTorch Library here and the models run on **GPU**.
     • Analyze the effectiveness of the attention mechanism in improving seq2seq model performance.
 
 **NOTE:**
-    1. The seq2seq ipynb file consists of model architectures, synthetic data generation, training and evaluation and plot for loss.
+
+    The seq2seq ipynb file consists of model architectures, synthetic data generation, training and evaluation and plot for loss.
+
+**PROJECT-3**
+
+**Multifunctional NLP and Image Generation Tool using Hugging Face Models**
+
+The goal of this project is to create a multifunctional tool that allows users to select and utilize different pretrained models from Hugging Face for various tasks. The tool will support text summarization, next word prediction, story prediction, chatbot, sentiment analysis, question answering, and image generation. The front end will provide a user-friendly interface to select the task and input the required text or image for processing.
+
+I have worked with Hugging Face models using PyTorch Library here and the models run on **GPU**. Streamlit is run on Google Colab by creating a tunnel to render the web application.
+
+**Developer Guide**
+
+**1.Tools required**
+
+  • Python
+
+  • Google Colab
+
+**2.Python libraries to install**
+  **a.For dashboard creation**
+
+    • Streamlit
+
+    • npx
+
+  **b.For Deep Learning**
+
+    • torch
+
+    • transformers
+
+    • diffusers
 
 
+ **3.Python modules to import**
 
+  **a.For Hugging face models**
 
+    • import torch
 
+    • from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
+    • from transformers import AutoModelForCausalLM, AutoTokenizer
 
+    • from transformers import pipeline
 
+    • from transformers import BartForConditionalGeneration, BartTokenizer
 
+    • from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
+    • from diffusers import StableDiffusionPipeline
+
+  **b.Dashboard Libraries**
+
+    • import streamlit as st
+
+  **Process**
+
+    • Set up the environment and install necessary libraries, including Hugging Face Transformers.
+
+    • Implement a user-friendly front end for task selection and input. I have used Streamlit here.
+
+    • Load and integrate pretrained models from Hugging Face for the following tasks:
+       - Text Summarization
+       - Next Word Prediction
+       - Story Prediction
+       - Chatbot
+       - Sentiment Analysis
+       - Question Answering
+       - Image Generation
+
+    • Implement the backend logic to process user inputs and generate outputs using the selected models.
+
+    • Test the application with various inputs and refine the user interface and backend logic.
+
+ **Implementing Streamlit on Google colab**
+
+    • Since this project requires GPU, I have used Google Colab and implemented Streamlit via colab.
+    
+    • Using the command %%writefile app.py, write all the necessary codes for Streamlit in a single cell in Google Colab.
+    
+    • Run this command !wget -q -O - ipv4.icanhazip.com to get a password for local tunnel.
+
+  ![screenshot](https://github.com/Abinaya-Ganesh/Computer_vision_and_NLP_projects/assets/162968618/30114128-9cfa-4347-8307-e53045f26af1)
+
+    • Using this command !streamlit run app.py & npx localtunnel --port 8501 create a local tunnel and run in the Streamlit app on browser
+
+  ![image](https://github.com/Abinaya-Ganesh/Computer_vision_and_NLP_projects/assets/162968618/29471ac7-8d56-4afc-b674-33c7a255b92c)
+
+    • Your Streamlit app is here!
+
+  ![image](https://github.com/Abinaya-Ganesh/Computer_vision_and_NLP_projects/assets/162968618/041aa011-75e6-4464-9ddd-d3a20456c2bb)
