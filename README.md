@@ -89,7 +89,7 @@ I have worked with PyTorch Library here and the models run on **GPU**.
 
   1. CNN_project file has all the architectures, training and evaluation part.
      
-  2. The loss and other metrics are converted to CSV files. I have uploaded them as well under the folder csv files.
+  2. The loss and other metrics are pickled. I have uploaded the pickled files as well.
      
   3. CNN_plot file consists of the plotted loss curve and other evaluation metrics table.
      
