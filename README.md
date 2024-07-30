@@ -1,5 +1,5 @@
 # Computer_vision_and_NLP_projects
-Various CCN models' performance is evaluated for MNIST, Fashion MNIST and CIFAR-10 Datasets | Importance of attention in Seq2seq models | Creating a front end for Multifunctional NLP and Image generation models | Python | Machine Learning | Deep Learning | PyTorch | Computer Vision | NLP | Streamlit
+Various CCN models' performance is evaluated and compared for MNIST, Fashion MNIST and CIFAR-10 Datasets | Importance of attention in Seq2seq models | Creating a front end for Multifunctional NLP and Image generation models | Python | Machine Learning | Deep Learning | PyTorch | Computer Vision | NLP | Streamlit
 
 This repository consists of three projects.
 1. Comparison of CNN Architectures on Different Datasets
