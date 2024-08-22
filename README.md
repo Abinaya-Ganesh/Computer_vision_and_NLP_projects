@@ -82,7 +82,7 @@ I have worked with PyTorch Library here and the models run on **GPU**.
 
     • Tabulate other performance metrics for comparison.
     
-    • Analyze the results to understand the impact of different architectures and datasets on model performance.
+    • Analyze the results to understand the impact of different architectures' performance on different datasets.
 
 
   **NOTE:**
